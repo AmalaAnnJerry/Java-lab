@@ -1,7 +1,8 @@
 import java.util.*;
 class Student
 {
-	int rollNumber,mathMarks,phyMarks,chemMarks;
+	int rollNumber;
+	double mathMarks,phyMarks,chemMarks;
 	String name;
 
 void getRequiredDetails()
