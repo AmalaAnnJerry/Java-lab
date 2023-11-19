@@ -14,11 +14,11 @@ void getRequiredDetails()
 	System.out.println("Rollno:");
 	rollNumber=sc.nextInt();
 	System.out.println("MathMarks:");
-	mathMarks=sc.nextInt();
+	mathMarks=sc.nextDouble();
 	System.out.println("PhyMarks:");
-	phyMarks=sc.nextInt();
+	phyMarks=sc.nextDouble();
 	System.out.println("ChemMarks:");
-	chemMarks=sc.nextInt();
+	chemMarks=sc.nextDouble();
 }
 
 void displayAverage()
