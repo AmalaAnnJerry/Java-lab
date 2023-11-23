@@ -6,7 +6,7 @@ for(int i=1;i<=100;i++)
 {
 if(i%2!=0)
 {
-System.out.println("Odd no i:"+i);
+System.out.println("Odd no"+"-"+i+"\n");
 }
 }
 System.out.println("Exiting thread from A");
@@ -20,7 +20,7 @@ for(int i=1;i<=100;i++)
 {
 if(i%2==0)
 {
-System.out.println("Even no i:"+i);
+System.out.println("Even no"+"-"+i+"\n");
 }
 }
 System.out.println("Exiting thread from B");
