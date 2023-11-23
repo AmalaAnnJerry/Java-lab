@@ -30,9 +30,9 @@ class ThreadPrgm
 {
 public static void main(String args[])
 {
-Odd.o=new Odd();
+Odd o=new Odd();
 o.start();
-Even.e=new Even();
+Even e=new Even();
 e.start();
 }
 }
